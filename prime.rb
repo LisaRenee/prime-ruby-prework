@@ -1,5 +1,7 @@
 def prime?(number)
-   code here!
-
-
-  end
+  (2...number).to_a.each do |divisor|
+    if number % divisor == 0
+      return false
+    end
+    true
+end
