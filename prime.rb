@@ -1,5 +1,5 @@
 def prime?(number)
-  if number == -1
+  if number < 1
     return false
   end
   (2...number).to_a.each do |divisor|
