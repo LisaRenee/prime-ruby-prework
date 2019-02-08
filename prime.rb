@@ -3,6 +3,6 @@ def prime?(number)
     if number % divisor == 0
       return false
     end
-true
 end
+true
 end
